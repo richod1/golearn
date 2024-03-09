@@ -106,4 +106,12 @@ func main(){
 			fmt.Println(adj[index],fruit[j])
 		}
 	}
+
+	// using range in iteration
+
+	fruits:=[]string{"Apple","mongo","lemon","pawpaw"}
+	for idx,vlu:=range(fruits){
+		fmt.Println(idx,vlu)
+	}
+
 }
