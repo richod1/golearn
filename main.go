@@ -114,4 +114,9 @@ func main(){
 		fmt.Println(idx,vlu)
 	}
 
+	// to show only value omitting the index
+	for _,vlu:=range(fruits){
+		fmt.Println(vlu)
+	}
+
 }
