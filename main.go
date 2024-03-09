@@ -1,5 +1,10 @@
 package main
-import ("fmt")
+
+import (
+	"fmt"
+
+)
+
 // import ("rsc.io/quote/v4")
 
 const A int=10
@@ -71,5 +76,16 @@ func main(){
 		fmt.Println("Good Day")
 	}else{
 		fmt.Println("Good evening")
+	}
+
+	// switch statements
+	day:="Monday"
+
+	switch(day){
+	case "Monday":fmt.Println("today is monday")
+	case "Tuesday":fmt.Println("today is tuesday")
+	case "Wednesday":fmt.Println("today is wednesday")
+	default:
+	fmt.Println("Not a week day")
 	}
 }
