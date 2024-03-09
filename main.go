@@ -9,6 +9,14 @@ import (
 
 const A int=10
 
+// struct in go lang
+type Person struct{
+	name string
+	age int
+	job string
+	salary int
+}
+
 func main(){
 	var myName string="Degraft Frimpong"
 	fmt.Println(myName)
@@ -121,6 +129,13 @@ func main(){
 	// function calling
 	message();
 	detailName("degraft","frimpong","22");
+// usage of struct
+var person1 Person
+
+person1.name="Degraft frimpong"
+person1.age=22
+fmt.Println("Name " ,person1.name)
+fmt.Println("Age ",person1.age)
 
 }
 func message(){
