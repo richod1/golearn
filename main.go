@@ -118,5 +118,17 @@ func main(){
 	for _,vlu:=range(fruits){
 		fmt.Println(vlu)
 	}
+	// function calling
+	message();
+	detailName("degraft","frimpong","22");
 
+}
+func message(){
+	fmt.Println("hello from msg function")
+}
+
+
+// function with parameters
+func detailName(fname string,lname string,age string){
+	fmt.Println("my firstname is " + fname + " and my lastname is " + lname + " and i am " + age + " years old" )
 }
