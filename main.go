@@ -56,7 +56,7 @@ func main(){
 
 	fmt.Println(myslice1)
 
-	 myslice3:=append(myslice1,myslice2...)
+	myslice3:=append(myslice1,myslice2...)
 	fmt.Println(myslice3)
 
 	// conditions
@@ -87,5 +87,23 @@ func main(){
 	case "Wednesday":fmt.Println("today is wednesday")
 	default:
 	fmt.Println("Not a week day")
+	}
+
+	// for loop in go
+	for i:=0;i<20;i++{
+		if(i==15){
+			break;
+		}
+		fmt.Println(i)
+	}
+
+	// nested forloop in go
+	adj:=[2]string{"big","teasty"}
+	fruit:=[3]string{"apple","orange","banana"}
+
+	for index:=0;index<len(adj);index++{
+		for j:=0;j<len(fruit);j++{
+			fmt.Println(adj[index],fruit[j])
+		}
 	}
 }
