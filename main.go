@@ -16,6 +16,27 @@ type Person struct {
 	salary int
 }
 
+// interface in go
+type Shape interface{
+	Area() float32;
+}
+type Rectangle struct{
+	Length float32;
+	Width float32;
+
+}
+func(r Rectangle) Area() float32{
+	return r.Length*r.Width;
+}
+
+type Circle struct{
+	Radius float32;
+}
+
+func(c Circle) Area() float32{
+	return 3.14*c.Radius*c.Radius;
+}
+
 func main() {
 	var myName string = "Degraft Frimpong"
 	fmt.Println(myName)
@@ -142,6 +163,22 @@ func main() {
 	// maps in go similar to objects in js
 	var cars=map[string]string{"brand":"Ford","model":"Mustaung","year":"1964"};
 	fmt.Println("Brand ",cars["brand"])
+
+
+	// usage of interface and struct
+	var shape1 Shape;
+	var shape2 Shape;
+
+	rect:=Rectangle{Length:5,Width: 3};
+	circle:=Circle{Radius: 2};
+
+	shape1=rect;
+	shape2=circle;
+
+	fmt.Println("Area of shape1 {Rectangle} :",shape1.Area());
+	fmt.Println("Area of shape2 {Circle} :",shape2.Area())
+
+
 }
 func message() {
 	fmt.Println("hello from msg function")
