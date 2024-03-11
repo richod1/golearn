@@ -1,3 +1,5 @@
+github.com/AmitSuresh/learning-golang/40-level_13/mymath v0.0.0-20230211135521-518a5e204f2b h1:lLvlwExYXPH5rymTtpCOX94IUC8vo1QMr7r5U+IT3lQ=
+github.com/AmitSuresh/learning-golang/40-level_13/mymath v0.0.0-20230211135521-518a5e204f2b/go.mod h1:A6OwEbQyvB+oat1b3IjOdcoiHyEXcQ2aTqDgnAcwIsM=
 golang.org/x/text v0.0.0-20170915032832-14c0d48ead0c h1:qgOY6WgZOaTkIIMiVjBQcw93ERBE4m30iBm00nkL0i8=
 golang.org/x/text v0.0.0-20170915032832-14c0d48ead0c/go.mod h1:NqM8EUOU14njkJ3fqMW+pc6Ldnwhi/IjpwHt7yyuwOQ=
 rsc.io/quote/v4 v4.0.1 h1:i/LHLEinr65wwTCqlP4OnMoMWeCgnFIZFvifdXNK+5M=

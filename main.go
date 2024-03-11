@@ -39,6 +39,10 @@ func(c Circle) Area() float32{
 
 func main() {
 
+	/*
+	code from inf
+	*/
+
 	persons:=Persons{
 		Name:"Degraft frimpong",
 		Age:23,
