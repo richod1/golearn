@@ -44,6 +44,25 @@ func main() {
 		Age:23,
 	}
 	persons.SayHello();
+
+	// Cat and Dog
+	var animal1 Animal;
+	var animal2 Animal;
+
+	dog:=Dog{
+		bark:"Woof",
+	}
+	cat:=Cat{
+		meow:"Meow",
+	}
+
+	animal1=dog;
+	animal2=cat;
+
+	fmt.Println("Animal 1 says ",animal1.Speak());
+	fmt.Println("Animal2 says ",animal2.Speak())
+
+
 	var myName string = "Degraft Frimpong"
 	fmt.Println(myName)
 	myLastName := "frimpong"
