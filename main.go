@@ -38,6 +38,12 @@ func(c Circle) Area() float32{
 }
 
 func main() {
+
+	persons:=Persons{
+		Name:"Degraft frimpong",
+		Age:23,
+	}
+	persons.SayHello();
 	var myName string = "Degraft Frimpong"
 	fmt.Println(myName)
 	myLastName := "frimpong"
@@ -178,6 +184,8 @@ func main() {
 	fmt.Println("Area of shape1 {Rectangle} :",shape1.Area());
 	fmt.Println("Area of shape2 {Circle} :",shape2.Area())
 
+
+	
 
 }
 func message() {
